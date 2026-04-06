@@ -14,12 +14,12 @@
 
 **Tingkah laku utama:**
 
-| Feature                 | Description                                               |
-| ----------------------- | --------------------------------------------------------- |
-| **spawn**               | Mencipta sub-agen async, tidak menyekat heartbeat         |
-| **Independent context** | Sub-agen mempunyai konteks sendiri, tiada sejarah sesi    |
+| Feature                 | Description                                                       |
+| ----------------------- | ----------------------------------------------------------------- |
+| **spawn**               | Mencipta sub-agen async, tidak menyekat heartbeat                 |
+| **Independent context** | Sub-agen mempunyai konteks sendiri, tiada sejarah sesi            |
 | **message tool**        | Sub-agen berkomunikasi terus dengan pengguna melalui message tool |
-| **Non-blocking**        | Selepas spawn, heartbeat terus ke tugasan seterusnya      |
+| **Non-blocking**        | Selepas spawn, heartbeat terus ke tugasan seterusnya              |
 
 #### Cara Komunikasi Sub-agen Berfungsi
 
@@ -50,9 +50,9 @@ Sub-agen mempunyai akses kepada tools (message, web_search, dan sebagainya) dan 
 }
 ```
 
-| Option     | Default | Description                              |
-| ---------- | ------- | ---------------------------------------- |
-| `enabled`  | `true`  | Hidupkan/matikan heartbeat               |
+| Option     | Default | Description                             |
+| ---------- | ------- | --------------------------------------- |
+| `enabled`  | `true`  | Hidupkan/matikan heartbeat              |
 | `interval` | `30`    | Selang semakan dalam minit (minimum: 5) |
 
 **Pemboleh ubah persekitaran:**
